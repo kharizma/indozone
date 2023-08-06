@@ -1,0 +1,34 @@
+{
+    "name": "kharizma/indozone",
+    "description": "Package Laravel containing Indonesian Administrative Data",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "php",
+        "csv",
+        "zone",
+        "indonesia",
+        "provinces",
+        "regencies",
+        "districts",
+        "villages",
+        "provinsi",
+        "kabupaten",
+        "kota",
+        "kecamatan",
+        "kelurahan",
+        "region"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kharizma\\Indozone\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ully Kharisma Putra",
+            "email": "ullykharisma@gmail.com"
+        }
+    ],
+    "require": {}
+}
