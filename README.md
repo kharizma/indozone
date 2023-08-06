@@ -10,5 +10,5 @@ Data ini diambil pada bulan Agustus 2023 bersumber pada https://sig.bps.go.id/ d
 Buka Command Line kemudian jalankan perintah dibawah untuk melakukan instalasi package:
 
 ```
-composer require kharizma/indozone
+composer require kharizma/indozone:dev-main
 ```
