@@ -1,6 +1,7 @@
 {
     "name": "kharizma/indozone",
     "description": "Package Laravel containing Indonesian Administrative Data",
+    "type": "library",
     "license": "MIT",
     "keywords": [
         "laravel",
@@ -19,17 +20,30 @@
         "kelurahan",
         "region"
     ],
-    "autoload": {
-        "psr-4": {
-            "Kharizma\\Indozone\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Ully Kharisma Putra",
             "email": "ullykharisma@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "parsecsv/php-parsecsv": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kharizma\\Indozone\\": "src/"
+        },
+        "files": [
+            "src/IndozoneHelper.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kharizma\\Indozone\\IndozoneServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
     "minimum-stability": "dev"
 }
